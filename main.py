@@ -49,7 +49,7 @@ origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000/c:/Users/bouyo/Pictures/tempr/",
     "https://predict-voitures-dans-maroc.vercel.app/",
-    "https://predict-voitures-dans-maroc-3as14p3tp.vercel.app"
+    "https://predict-voitures-dans-maroc.vercel.app"
 ]
 
 app.add_middleware(
