@@ -1,5 +1,5 @@
 function getData(path,id){
-    data=fetch(`modelpredictvoituresdansmaroc-production.up.railway.app/${path}`,{
+    data=fetch(`https://voiceless-karel-houssame-developper-b5a205ae.koyeb.app/${path}`,{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
