@@ -13,7 +13,7 @@ form.addEventListener('submit', function (event) {
 
     const jsonData = JSON.stringify(data);
 
-    fetch('https://predict-voitures-dans-maroc.vercel.app', {
+    fetch('http://127.0.0.1:8000/', {
         method: 'POST', 
         headers: {
             'Content-Type': 'application/json' ,
