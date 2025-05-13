@@ -1,5 +1,5 @@
 function getData(path,id){
-    data=fetch(`http://127.0.0.1:8000/${path}`,{
+    data=fetch(`https://predict-voitures-dans-maroc.vercel.app/${path}`,{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
