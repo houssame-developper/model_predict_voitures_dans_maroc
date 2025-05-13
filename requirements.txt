@@ -6,3 +6,6 @@ joblib
 pandas
 numpy
 pydantic
+category_encoders
+xgboost
+lightgbm
