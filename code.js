@@ -13,7 +13,7 @@ form.addEventListener('submit', function (event) {
 
     const jsonData = JSON.stringify(data);
 
-    fetch('https://predict-voitures-dans-maroc-3as14p3tp.vercel.app', {
+    fetch('https://voiceless-karel-houssame-developper-b5a205ae.koyeb.app', {
         method: 'POST', 
         headers: {
             'Content-Type': 'application/json' ,
